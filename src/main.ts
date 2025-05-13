@@ -6,7 +6,7 @@ import login from "./routes/loginRoutes";
 
 const app = Express();
 
-const allowedOrigins = ['https://jexperts-front.vercel.app/']
+const allowedOrigins = ['https://jexperts-front.vercel.app']
 const options: cors.CorsOptions = {
     origin: allowedOrigins,
 }
